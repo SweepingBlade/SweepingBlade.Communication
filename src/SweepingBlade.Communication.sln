@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweepingBlade.Communication.Primitives", "SweepingBlade.Communication.Primitives\SweepingBlade.Communication.Primitives.csproj", "{65E6150D-2CB9-4F2C-A434-6EAE941136DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweepingBlade.Communication.NamedPipe", "SweepingBlade.Communication.NamedPipe\SweepingBlade.Communication.NamedPipe.csproj", "{398DB906-F7F1-4E22-AC29-CD6AA2AEBC98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E6150D-2CB9-4F2C-A434-6EAE941136DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E6150D-2CB9-4F2C-A434-6EAE941136DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E6150D-2CB9-4F2C-A434-6EAE941136DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E6150D-2CB9-4F2C-A434-6EAE941136DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398DB906-F7F1-4E22-AC29-CD6AA2AEBC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398DB906-F7F1-4E22-AC29-CD6AA2AEBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398DB906-F7F1-4E22-AC29-CD6AA2AEBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398DB906-F7F1-4E22-AC29-CD6AA2AEBC98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
