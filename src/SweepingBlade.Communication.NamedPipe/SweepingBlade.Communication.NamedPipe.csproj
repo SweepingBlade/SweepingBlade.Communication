@@ -4,8 +4,24 @@
         <TargetFramework>net6.0-windows</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
+    <PropertyGroup Condition="$(Configuration) == 'Release'" Label="NuGet">
+        <PackageId>SweepingBlade.Communication.NamedPipe</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>SweepingBlade</Authors>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/SweepingBlade/SweepingBlade.Communication</PackageProjectUrl>
+        <Description>SweepingBlade is a software library that provides a fundamental structure to support the development of .NET applications.</Description>
+        <PackageTags>Communication;Named Pipe;Application Framework</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup Condition="$(Configuration) == 'Debug'">
         <ProjectReference Include="..\SweepingBlade.Communication.Primitives\SweepingBlade.Communication.Primitives.csproj" />
+    </ItemGroup>
+
+    <ItemGroup Condition="$(Configuration) == 'Release'">
+        <PackageReference Include="SweepingBlade.Communication.Primitives" Version="1.0.0" />
     </ItemGroup>
 
 </Project>
